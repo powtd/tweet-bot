@@ -7,18 +7,18 @@ import tweepy
 import random
 
 
-token = '991277356932202496-Zh6tCHMuHlzGSzqv8u3k9hGrVOfVyfP'
-token_secret = '2FgWGJJHFXJPgHa91QxKJPSjxlhAw0St2mF7Har16FYEa'
-consumer_key = 'Rf0TzYKHGgeXoVhg59iFuGgIa'
-consumer_secret = 'NFlXx0DrTD0e4MfpDjLbf6rlXU9DVku1WN1sIrMbUqTdAMZzK3'
-ACCOUNT_ID = '991277356932202496'
-ACCOUNT_NAME = 'currentSptf'
+token = '' #personal info
+token_secret = ''
+consumer_key = ''
+consumer_secret = ''
+ACCOUNT_ID = ''
+ACCOUNT_NAME = ''
 
 t = Twitter(
     auth=OAuth(token, token_secret, consumer_key, consumer_secret))
 
 SPOTIFY_GET_CURRENT_TRACK_URL = 'https://api.spotify.com/v1/me/player'
-SPOTIFY_ACCESS_TOKEN = 'BQAIWpQHYzq6opOr-H7q7TIHyZuEdRdE3Mvr_1GzM_WJM-GgTOCht2MJzxMSBX-JSy7hSAHKen7BxACVkjTNEkLHOxJovLNpmB5_TeVEx2vRk76emNLi2cxBJq3JDQH6JZmLoNbGZ8xuEruj1Ho56LmnOiLs3PmY7i4DQWvWcF1uxTp8SELGzZjw17CnQK--SsMMlg_nHOuf16gy5GLLsw8jRJWJGgEaH--Nuw'
+SPOTIFY_ACCESS_TOKEN = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(token, token_secret)
